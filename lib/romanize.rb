@@ -8,7 +8,6 @@
 # # => 'V'
 #
 # Returns the romanized nummer.
-
 def romanize(number)
   # Will raise a argument error if the number is zero.
   raise ArgumentError,'can not encode zero' if number.zero?
