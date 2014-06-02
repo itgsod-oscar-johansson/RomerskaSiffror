@@ -1,3 +1,14 @@
+# Public: The program is going to take a arabic number and translate it into roman number.
+#
+# Number = The arabic number used for the translation
+#
+# Examples:
+#
+# romanize(10)
+# # => 'V'
+#
+# Returns the romanized nummer.
+
 def romanize(number)
   # Will raise a argument error if the number is zero.
   raise ArgumentError,'can not encode zero' if number.zero?
